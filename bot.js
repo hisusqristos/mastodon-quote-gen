@@ -59,7 +59,7 @@ const ասացվածքի_վերջը = [
 
 
 const job = new CronJob(
-    "* * * * * *",
+    "0 13 * * * *",
     () => {
         let params = {
             status: ասացվածքի_սկիզբ.random() + ասացվածքի_վերջը.random()
